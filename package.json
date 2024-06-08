@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "./aws",
+      "./hana",
+      "./root",
+      "./common"
+    ]
+  },
+  "scripts": {
+    "start": "yarn workspace root dev"
+  }
+}
